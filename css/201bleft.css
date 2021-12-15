@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80%;
+  background-color: white;
+}
+
+a {
+  font-size: 14px;
+  color: black;
+
+}
