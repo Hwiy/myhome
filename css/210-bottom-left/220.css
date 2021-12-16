@@ -4,7 +4,8 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-content: space-around;
-  gap: 50px;
+  gap: 5px;
+  flex-wrap: wrap;
   font-family: 'Trebuchet MS', sans-serif;
 
 }
