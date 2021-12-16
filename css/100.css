@@ -4,12 +4,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 80%;
-  background-color: grey;
+  background-color: #333333;
 }
 
 a {
   font-size: 20px;
   color: white;
+  font-color: #FAF7FD;
 
 }

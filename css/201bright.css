@@ -2,14 +2,19 @@ body {
   margin: 0;
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 80%;
-  background-color: white;
+  justify-content: left;
+  align-items: flex-start;
+  background: rgb(225,210,240);
+  background: linear-gradient(333deg, rgba(225,210,240,1) 0%, rgba(225,210,245,1) 35%, rgba(187,243,255,1) 100%);
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
 a {
-  font-size: 14px;
+  font-size: 8px;
   color: black;
+}
 
+img {
+  width: 150px;
+  height: auto;
 }

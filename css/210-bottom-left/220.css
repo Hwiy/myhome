@@ -1,0 +1,16 @@
+body {
+  background-color: #BEF0FE;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+  gap: 50px;
+  font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+a {
+  font-size: 40px;
+  color: #8159AF;
+  text-decoration: none;
+}
