@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>My House</title>
     <link rel="stylesheet" href="./css/front.css">
-
   </head>
   <body>
     <div class="frame">
@@ -20,11 +19,19 @@
     <a href="./frontal.html"></a>
     <iframe id="iframe" src="frameset.html" class="link">link</iframe>
     <script>
-    const red = document.querySelector('.frame')
-    red.addEventListener('click', () => {
-    const a = document.querySelector('.link')
-    a.click()
-    })
+      const red = document.querySelector('.frame')
+      red.addEventListener('click', () => {
+        const a = document.querySelector('.link')
+        const sec = a.src.split('/frame')[1] //cutting url in fromt of frame//
+        console.log(sec)
+        if (sec === 'set.html') {
+          a.src = 'framesets.html'
+        }
+        else {
+          a.src = 'frameset.html'
+        }
+
+      })
     </script>
   </body>
 </html>
