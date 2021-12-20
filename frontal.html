@@ -18,12 +18,12 @@
     </div>
       <a href="./front.html"></a>
     <iframe id="iframe" src="frameset.html" class="link">link</iframe>
+    <script>
+    const red = document.querySelector('.frame')
+    red.addEventListener('click', () => {
+    const a = document.querySelector('.link')
+    a.click()
+    })
+    </script>
   </body>
 </html>
-<script>
-const red = document.querySelector('.frame')
-red.addEventListener('click', () => {
-const a = document.querySelector('.link')
-a.click()
-})
-</script>
